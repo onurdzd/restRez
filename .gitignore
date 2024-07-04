@@ -1,0 +1,33 @@
+# ASP.NET Core özel
+bin/
+obj/
+
+# Visual Studio dosyaları
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Paket yöneticisi dosyaları
+**/packages/
+*.lock.json
+
+# appsettings dosyaları
+appsettings.json
+appsettings*.json
+!appsettings.Development.json
+!appsettings.Production.json
+
+# Diğer önerilen dosyalar
+*.log
+*.user
+
+# Bootstrap ve benzeri kütüphaneler
+wwwroot/lib/bootstrap/
+wwwroot/lib/bootstrap.min.css
+wwwroot/lib/bootstrap.min.js
+
+# jQuery ve benzeri kütüphaneler
+wwwroot/lib/jquery/
+wwwroot/lib/jquery.min.js
